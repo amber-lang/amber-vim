@@ -1,0 +1,21 @@
+#!/usr/bin/env amber
+import * from "std/text"
+
+/// Returns the factorial of the supplied number.
+#[allow_generic_return]
+fun factorial(nth: Num) {
+    let fact = 1
+    loop {
+        if nth <= 1: break
+        fact *= nth
+        nth -= 1
+    }
+    return fact
+}
+
+/// Prints the factorial via both Amber and Bash.
+main {
+    let fact = factorial(5)
+    echo "Factorial is {fact}"
+    $ echo "Factorial is {fact}" $?
+}
