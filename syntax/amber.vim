@@ -18,6 +18,7 @@ syntax keyword amberKeyword echo
 syntax keyword amberKeyword else
 syntax keyword amberKeyword fail
 syntax keyword amberKeyword failed
+syntax keyword amberKeyword for
 syntax keyword amberKeyword from
 syntax keyword amberKeyword fun
 syntax keyword amberKeyword if
