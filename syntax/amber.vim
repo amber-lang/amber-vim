@@ -25,6 +25,7 @@ syntax keyword amberKeyword if
 syntax keyword amberKeyword import
 syntax keyword amberKeyword in
 syntax keyword amberKeyword is
+syntax keyword amberKeyword len
 syntax keyword amberKeyword let
 syntax keyword amberKeyword loop
 syntax keyword amberKeyword main
