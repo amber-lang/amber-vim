@@ -11,9 +11,11 @@ syntax match amberFlags "\v#\[.+\]"
 highlight link amberFlags Special
 
 " Keywords.
+syntax keyword amberKeyword and
 syntax keyword amberKeyword as
 syntax keyword amberKeyword break
 syntax keyword amberKeyword cd
+syntax keyword amberKeyword continue
 syntax keyword amberKeyword echo
 syntax keyword amberKeyword else
 syntax keyword amberKeyword fail
@@ -27,10 +29,13 @@ syntax keyword amberKeyword in
 syntax keyword amberKeyword is
 syntax keyword amberKeyword len
 syntax keyword amberKeyword let
+syntax keyword amberKeyword lines
 syntax keyword amberKeyword loop
 syntax keyword amberKeyword main
 syntax keyword amberKeyword mv
 syntax keyword amberKeyword nameof
+syntax keyword amberKeyword not
+syntax keyword amberKeyword or
 syntax keyword amberKeyword pub
 syntax keyword amberKeyword ref
 syntax keyword amberKeyword return
@@ -38,6 +43,7 @@ syntax keyword amberKeyword silent
 syntax keyword amberKeyword status
 syntax keyword amberKeyword then
 syntax keyword amberKeyword trust
+syntax keyword amberKeyword unsafe
 syntax match amberKeyword "\v\?"
 syntax match amberKeyword "\v__\w+"
 highlight link amberKeyword Keyword
