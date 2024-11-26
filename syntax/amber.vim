@@ -15,9 +15,11 @@ syntax keyword amberKeyword and
 syntax keyword amberKeyword as
 syntax keyword amberKeyword break
 syntax keyword amberKeyword cd
+syntax keyword amberKeyword const
 syntax keyword amberKeyword continue
 syntax keyword amberKeyword echo
 syntax keyword amberKeyword else
+syntax keyword amberKeyword exit
 syntax keyword amberKeyword fail
 syntax keyword amberKeyword failed
 syntax keyword amberKeyword for

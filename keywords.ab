@@ -12,9 +12,11 @@ and
 as
 break
 cd
+const
 continue
 echo
 else
+exit
 fail
 failed
 for
