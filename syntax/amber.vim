@@ -20,6 +20,7 @@ syntax keyword amberKeyword continue
 syntax keyword amberKeyword echo
 syntax keyword amberKeyword else
 syntax keyword amberKeyword exit
+syntax keyword amberKeyword exited
 syntax keyword amberKeyword fail
 syntax keyword amberKeyword failed
 syntax keyword amberKeyword for
@@ -43,9 +44,12 @@ syntax keyword amberKeyword ref
 syntax keyword amberKeyword return
 syntax keyword amberKeyword silent
 syntax keyword amberKeyword status
+syntax keyword amberKeyword succeeded
+syntax keyword amberKeyword sudo
 syntax keyword amberKeyword then
 syntax keyword amberKeyword trust
 syntax keyword amberKeyword unsafe
+syntax keyword amberKeyword while
 syntax match amberKeyword "\v\?"
 syntax match amberKeyword "\v__\w+"
 highlight link amberKeyword Keyword
@@ -56,18 +60,22 @@ highlight link amberFunction Function
 
 " Data types.
 syntax keyword amberType Bool
+syntax keyword amberType Int
 syntax keyword amberType Null
 syntax keyword amberType Num
 syntax keyword amberType Text
 syntax match amberType "\vBool\?"
+syntax match amberType "\vInt\?"
 syntax match amberType "\vNull\?"
 syntax match amberType "\vNum\?"
 syntax match amberType "\vText\?"
 syntax match amberType "\v\[Bool\]"
+syntax match amberType "\v\[Int\]"
 syntax match amberType "\v\[Null\]"
 syntax match amberType "\v\[Num\]"
 syntax match amberType "\v\[Text\]"
 syntax match amberType "\v\[Bool\]\?"
+syntax match amberType "\v\[Int\]\?"
 syntax match amberType "\v\[Null\]\?"
 syntax match amberType "\v\[Num\]\?"
 syntax match amberType "\v\[Text\]\?"

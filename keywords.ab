@@ -17,6 +17,7 @@ continue
 echo
 else
 exit
+exited
 fail
 failed
 for
@@ -40,9 +41,12 @@ ref
 return
 silent
 status
+succeeded
+sudo
 then
 trust
 unsafe
+while
 failing()? // (highlights `?` only)
 __reserved // (highlights `__` and following word)
 
@@ -52,18 +56,22 @@ glob   // (highlights nothing)
 
 // Data types.
 Bool
+Int
 Null
 Num
 Text
 Bool?
+Int?
 Null?
 Num?
 Text?
 [Bool]
+[Int]
 [Null]
 [Num]
 [Text]
 [Bool]?
+[Int]?
 [Null]?
 [Num]?
 [Text]?
