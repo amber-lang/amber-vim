@@ -14,5 +14,6 @@ setlocal smartindent
 " Continue inline or documentation comments on next line.
 setlocal formatoptions+=ro
 setlocal comments=:///,://
+setlocal commentstring=//\ %s
 
 let b:did_ftplugin = "amber"
